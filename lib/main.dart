@@ -1,5 +1,5 @@
 import 'dart:developer';
-
+import 'beshichi_bet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/second_page.dart';
 import 'package:flutter_application_2/ucunchi_bet.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       // home: const UcunchiBet(),
       // home:  BirinchiBet(),
       // home: const MyHomePage(),
-      home: const TortinchiBet(),
+      // home: const TortinchiBet(),
 
     );
   }

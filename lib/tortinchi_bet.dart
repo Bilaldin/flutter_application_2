@@ -7,10 +7,10 @@ class TortinchiBet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: Colors.green,
-      backgroundColor: Color.fromARGB(255, 15, 140, 26),
+      backgroundColor: Color.fromARGB(255, 15, 141, 26),
 
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         title: Text(
           "zadaniya 4",
           style: TextStyle(color: Colors.black,
@@ -67,6 +67,7 @@ SizedBox(
           TextField(
             // obscureText: false,
             decoration: InputDecoration(
+              // suffixIcon: Icon(Icons.email),
               prefixIcon: Icon(Icons.email),
               fillColor: Colors.white,
               filled: true,

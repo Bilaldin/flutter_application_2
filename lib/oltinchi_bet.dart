@@ -1,4 +1,4 @@
-import 'package:audioplayer/audioplayer.dart';
+// import 'package:audioplayer/audioplayer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/widget/new_widget.dart';
 
@@ -13,7 +13,7 @@ class _OltinchiBetState extends State<OltinchiBet> {
   @override
   Widget build(BuildContext context) {
     // final player = AudioPlayer();
-    AudioPlayer player = AudioPlayer();
+    // AudioPlayer player = AudioPlayer();
 
     return Scaffold(
       body: Column(

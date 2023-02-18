@@ -10,9 +10,9 @@ class NewWidget extends StatelessWidget {
   final Function()? onpress;
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onpress,
-      child: Expanded(
+    return Expanded(
+      child: InkWell(
+        onTap: onpress,
         child: Container(
           color: colors,
         ),

@@ -13,8 +13,9 @@ class TortinchiBet extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 255, 255, 255),
         title: Text(
           "zadaniya 4",
-          style: TextStyle(color: Colors.black,
-          //  fontFamily: "Pacifico-Regular"
+          style: TextStyle(
+            color: Colors.black,
+            //  fontFamily: "Pacifico-Regular"
           ),
         ),
       ),
@@ -22,36 +23,37 @@ class TortinchiBet extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           // Image.asset("assets/images/bilaldin.png"),
-          
+
           CircleAvatar(
-             
-               backgroundImage:AssetImage("assets/images/bilaldin.png"),      
+            backgroundImage: AssetImage("assets/images/bilaldin.png"),
             // backgroundColor:
             //  Color.fromARGB(255, 8, 223, 26),
-             
+
             radius: 35,
           ),
-          Text("Bilaldin_02_03", 
-          style: TextStyle(color: Colors.white,
-          fontFamily: "Pacifico"
-          ) ,),
-          Text("Fluter Developer", style: TextStyle(color:Colors.white),),
+          Text(
+            "Bilaldin_02_03",
+            style: TextStyle(color: Colors.white, fontFamily: "Pacifico"),
+          ),
+          Text(
+            "Fluter Developer",
+            style: TextStyle(color: Colors.white),
+          ),
           SizedBox(
-  height: 10,
-),
+            height: 10,
+          ),
           Container(
             width: 120,
             child: Divider(
               height: 3,
               thickness: 2,
-               color: Colors.white,
+              color: Colors.white,
             ),
           ),
-SizedBox(
-  height: 10,
-),
+          SizedBox(
+            height: 10,
+          ),
           TextField(
-            
             // obscureText: false,
             decoration: InputDecoration(
               prefixIcon: Icon(Icons.phone),
@@ -59,11 +61,11 @@ SizedBox(
               filled: true,
               border: OutlineInputBorder(),
               labelText: 'tel.',
-              
-              
             ),
           ),
-          SizedBox(height: 10,),
+          SizedBox(
+            height: 10,
+          ),
           TextField(
             // obscureText: false,
             decoration: InputDecoration(
@@ -72,10 +74,8 @@ SizedBox(
               fillColor: Colors.white,
               filled: true,
               border: OutlineInputBorder(),
-              
-              labelText: 'e.mail.',
 
-              
+              labelText: 'e.mail.',
             ),
           ),
         ],

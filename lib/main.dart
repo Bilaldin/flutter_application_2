@@ -1,4 +1,7 @@
 import 'dart:developer';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_application_2/oltinchi_bet.dart';
+
 import 'beshichi_bet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/second_page.dart';
@@ -20,10 +23,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: const UcunchiBet(),
-      // home:  BirinchiBet(),
+      home: const UcunchiBet(),
+      // home: const BirinchiBet(),
       // home: const MyHomePage(),
       // home: const TortinchiBet(),
+      // home: const SecondPage(),
+      // home: const BeshichiBet(),
+      // home: const OltinchiBet(),
 
     );
   }

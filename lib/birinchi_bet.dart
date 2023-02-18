@@ -43,12 +43,12 @@ class _BirinchiBetState extends State<BirinchiBet> {
             child: Center(
               child: Text(
                 'сан:$_counter',
-                style: TextStyle(fontSize: 20),
+                style: const TextStyle(fontSize: 20),
               ),
             ),
           ),
         ),
-        SizedBox(height: 20,),
+        const SizedBox(height: 20,),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -63,7 +63,7 @@ class _BirinchiBetState extends State<BirinchiBet> {
                 autofocus: false,
                 mouseCursor: SystemMouseCursors.none,
                 focusColor: Colors.red,
-                icon: Icon(
+                icon: const Icon(
                   Icons.remove,
                   size: 30,
                 ),
@@ -75,7 +75,7 @@ class _BirinchiBetState extends State<BirinchiBet> {
                   log('baqsolyapti===>');
                 },
               ),
-            ),SizedBox(width: 20,),
+            ),const SizedBox(width: 20,),
             Container(
               width: 69,
               height: 44,
@@ -83,7 +83,7 @@ class _BirinchiBetState extends State<BirinchiBet> {
                   color: Colors.blue,
                   borderRadius: BorderRadius.circular(10)),
               child: IconButton(
-                icon: Icon(
+                icon: const Icon(
                   Icons.add,
                   size: 30,
                 ),
@@ -105,8 +105,8 @@ class _BirinchiBetState extends State<BirinchiBet> {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => SecondPage(san: 'san:$_counter',)));
             },
-            icon: Icon(Icons.arrow_back)),
-        title: Text('Flutter'),
+            icon: const Icon(Icons.arrow_back)),
+        title: const Text('Flutter'),
       ),
     );
   }

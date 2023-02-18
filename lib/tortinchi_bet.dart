@@ -25,7 +25,7 @@ class TortinchiBet extends StatelessWidget {
           // Image.asset("assets/images/bilaldin.png"),
 
           CircleAvatar(
-            backgroundImage: AssetImage("assets/images/bilaldin.png"),
+            backgroundImage: AssetImage("assets/images/diamot.png"),
             // backgroundColor:
             //  Color.fromARGB(255, 8, 223, 26),
 
@@ -54,8 +54,10 @@ class TortinchiBet extends StatelessWidget {
             height: 10,
           ),
           TextField(
+            // maxLength: 13,
             // obscureText: false,
             decoration: InputDecoration(
+              
               prefixIcon: Icon(Icons.phone),
               fillColor: Colors.white,
               filled: true,
